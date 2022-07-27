@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer_exercise",
+  "version": "1.0.0",
+  "description": "A simple exercise of web test automation using puppeteer",
+  "main": "my_test.js",
+  "scripts": {
+    "test": "my_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpradap/puppeteer_exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexpradap/puppeteer_exercise/issues"
+  },
+  "homepage": "https://github.com/alexpradap/puppeteer_exercise#readme"
+}
