@@ -41,9 +41,9 @@ workflows:
   execute-tests:
     jobs:
       - build:
-        filters:
-          branches:
-            only: main
+          filters:
+            branches:
+              only: main
       - puppeteer-test:
-        requires:
-          - build
+          requires:
+            - build
