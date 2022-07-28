@@ -38,10 +38,10 @@ jobs:
 workflows:
   execute-tests:
     jobs:
-      - build
+      - build:
         filters:
           branches:
             only: main
-      - puppeteer-test
+      - puppeteer-test:
         requires:
           - build
