@@ -8,7 +8,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cimg/node:current
+      - image: cimg/node:14.17-browsers
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
@@ -25,7 +25,7 @@ jobs:
 
   puppeteer-test:
     docker:
-      - image: cimg/node:current
+      - image: cimg/node:14.17-browsers
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
