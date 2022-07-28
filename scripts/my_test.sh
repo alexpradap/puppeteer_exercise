@@ -1,1 +1,3 @@
-node ./../my_test.js
+pwd
+ls -la
+node my_test.js
