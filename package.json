@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alexpradap/puppeteer_exercise/issues"
   },
-  "homepage": "https://github.com/alexpradap/puppeteer_exercise#readme"
+  "homepage": "https://github.com/alexpradap/puppeteer_exercise#readme",
+  "devDependencies": {
+    "puppeteer": "^15.5.0"
+  }
 }
